@@ -6,18 +6,18 @@ import java.util.Scanner;
 public class kalkulator {
     private static String Ulangi;
 
+    // main method
     public static void main(String[] args){
         OperasiDasar();
     }
 
-    // Aplikasi method
+    // method operasi
     public static void OperasiDasar(){
         System.out.println("APLIKASI KALKULATOR");
         System.out.println("-------------------");
 
         // create algorithm
         // input value
-
         System.out.println("pilihan : ");
         System.out.println("1. Tambah, 2. Kurang, 3. Kali, 4. Bagi");
         Scanner pilihan = new Scanner(System.in);
